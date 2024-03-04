@@ -222,7 +222,7 @@ bool empty_pair_check() {
                 }
             } //check paired three's
         }
-        if(mat == 17) {
+        if(mat == 16) {
             int pair1[sqrmat], pair2[sqrmat];
             for(int y = 0; y < mat; y++) {
                 if(display[y][sqrmat*k] == ' ' && display[y][sqrmat*k+1] == ' ' && display[y][sqrmat*k+2] == ' ')
