@@ -82,23 +82,23 @@ void dia_box_fill() {
 bool remain_fill(int i, int j) {
     if (i < mat-1 && j >= mat) { //the right but not the last row
         i++; //down a row
-        j = 0; //set to the left row
+        j = 0; //set to the left column
     }
     if (i >= mat && j >= mat) //the end
         return true;
     
     if (i < sqrmat) { //top box
         if (j < sqrmat) //top left box
-            j = sqrmat; //set to left row of mid box
+            j = sqrmat; //set to left column of mid box
     }
     else if (mat != 4 && i < mat - sqrmat) { //mid box row
-        if (j == int(i / sqrmat) * sqrmat) //left row of mid box
-            j += sqrmat; //set to left row of mid box
+        if (j == int(i / sqrmat) * sqrmat) //left column of mid box
+            j += sqrmat; //set to the left column of mid right box
     }
     else { //bottom box
         if (j == mat - sqrmat) { //bottom right box
             i++; //down a row
-            j = 0; //set to the left row
+            j = 0; //set to the left column
             if (i >= mat) //the bottom
                 return true;
         }
