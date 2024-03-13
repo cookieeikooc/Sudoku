@@ -119,8 +119,7 @@ bool remain_fill(int i, int j) {
     return false;
 }
 
-void value_remove()
-   {
+void value_remove() {
     int count = N;
     srand((unsigned)time(0));
     while (count != 0) {
