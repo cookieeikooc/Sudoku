@@ -7,4 +7,8 @@ This is my Final Project of “Introduction to Computers and Programming”. Fal
 - You would need to install ncurses on your computer to be able to compile the entire code.
 
 ## More Info
-Check out the Wiki page for more details of the code and the explanation of the algorithm.
+Check out the [Wiki](https://github.com/cookieeikooc/Sudoku/wiki) page for more details of the code and the explanation of the algorithm.
+
+## References
+For the exclusion of multiple answers, I found this paper online:  
+[The Study of Minimum Sudoku. Huang, Yu-Long. 2009](https://hdl.handle.net/11296/upqb43)
